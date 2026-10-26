@@ -1,0 +1,50 @@
+[
+  {
+    "hotel_id": "HT-BCN-001",
+    "name": "Barceloneta Beach Hotel",
+    "city": "Barcelona",
+    "star_rating": 4,
+    "price_per_night_usd": 149,
+    "available": true,
+    "room_types": ["Standard", "Deluxe", "Sea View"],
+    "amenities": ["Wifi", "Beach Access", "Restaurant"],
+    "check_in_time": "15:00",
+    "check_out_time": "11:00",
+    "cancellation_policy": "Free cancellation up to 48 hours before check-in"
+  },
+  {
+    "hotel_id": "HT-BCN-002",
+    "name": "Hotel Casa Marina",
+    "city": "Barcelona",
+    "star_rating": 5,
+    "price_per_night_usd": "check website",
+    "available": true,
+    "room_types": ["Suite", "Penthouse"],
+    "amenities": ["Wifi", "Pool", "Spa", "Rooftop Bar"],
+    "check_in_time": "14:00",
+    "check_out_time": "12:00",
+    "cancellation_policy": "Non-refundable"
+  },
+  {
+    "hotel_id": "HT-BCN-003",
+    "name": "Gothic Quarter Inn",
+    "city": "Barcelona",
+    "available": true,
+    "room_types": ["Standard"],
+    "amenities": ["Wifi"],
+    "check_in_time": "16:00"
+  },
+  {
+    "hotel_id": "HT-ROM-001",
+    "name": "Trastevere Courtyard Hotel",
+    "city": "Rome",
+    "star_rating": 4,
+    "price_per_night_usd": 178,
+    "available": true,
+    "room_types": ["Standard", "Deluxe"],
+    "amenities": ["Wifi", "Breakfast", "Terrace"],
+    "check_in_time": "15:00",
+    "check_out_time": "11:00",
+    "cancellation_policy": "Free cancellation up to 24 hours before check-in"
+  }
+]

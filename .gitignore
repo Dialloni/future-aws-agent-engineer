@@ -1,0 +1,24 @@
+# Secrets and local config
+.env
+agentcore_config.json
+
+# Environments, caches, build output
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+build/
+cdk.out/
+.cache/
+.claude-flow/
+
+# Editor backups and stale toolkit configs
+*bak
+*.bak2
+*.stale
+*.working
+.DS_Store
+
+# AgentCore starter-toolkit build artifacts (115MB deps zip)
+.bedrock_agentcore/

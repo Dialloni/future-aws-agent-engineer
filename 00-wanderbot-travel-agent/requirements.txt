@@ -1,0 +1,10 @@
+strands-agents
+strands-agents-tools
+bedrock-agentcore
+bedrock-agentcore-starter-toolkit
+pydantic
+mcp
+httpx2
+playwright
+nest-asyncio
+aws-opentelemetry-distro

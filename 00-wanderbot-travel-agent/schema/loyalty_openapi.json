@@ -1,0 +1,53 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Horizon Rewards Loyalty API",
+    "description": "Loyalty points and tier status for Horizon Travel members.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    { "url": "https://gwo9c997fj.execute-api.us-west-2.amazonaws.com/prod" }
+  ],
+  "paths": {
+    "/loyalty/{memberId}": {
+      "get": {
+        "operationId": "get_loyalty_points",
+        "summary": "Get Horizon Rewards loyalty points for a member",
+        "description": "Look up a Horizon Rewards member's loyalty points balance, tier, and progress to the next tier. Use this whenever a traveller asks about loyalty points, rewards, tier status, or a Horizon Rewards account, given a member id such as 'hz-001'.",
+        "parameters": [
+          {
+            "name": "memberId",
+            "in": "path",
+            "required": true,
+            "description": "Horizon Rewards member id, e.g. 'hz-001'",
+            "schema": { "type": "string" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The member's loyalty record",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "member_id": { "type": "string", "description": "Member id, e.g. 'hz-001'" },
+                    "member_name": { "type": "string", "description": "Member full name" },
+                    "email": { "type": "string", "description": "Member email address" },
+                    "tier": { "type": "string", "description": "Tier: Silver, Gold or Platinum" },
+                    "points_balance": { "type": "integer", "description": "Current points balance" },
+                    "points_to_next_tier": { "type": "integer", "description": "Points still needed for the next tier" },
+                    "next_tier": { "type": "string", "description": "Next tier up, null if already top tier" },
+                    "member_since": { "type": "string", "description": "Join date, YYYY-MM-DD" },
+                    "lifetime_flights": { "type": "integer", "description": "Total flights flown" }
+                  }
+                }
+              }
+            }
+          },
+          "404": { "description": "No member with that id" }
+        }
+      }
+    }
+  }
+}

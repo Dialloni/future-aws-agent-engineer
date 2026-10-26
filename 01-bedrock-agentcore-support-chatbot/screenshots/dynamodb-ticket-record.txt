@@ -1,0 +1,10 @@
+{
+    "Item": {
+        "environment": {"S": "Chrome on Windows 11."},
+        "createdAt": {"S": "2026-08-29T19:56:27.878172+00:00"},
+        "description": {"S": "Website crashes when adding more than 5 items to the cart on the checkout page."},
+        "stepsToReproduce": {"S": "Add more than 5 items to the cart and attempt to checkout."},
+        "ticketId": {"S": "36768411-287b-4fee-a021-938ce47e2711"},
+        "status": {"S": "OPEN"}
+    }
+}

@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.DS_Store
+.claude-flow/
+.bedrock_agentcore/
+.bedrock_agentcore.yaml

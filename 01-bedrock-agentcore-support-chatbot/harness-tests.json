@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "id": "bug-report-full",
+      "prompt": "NEW UNRELATED ISSUE: The search bar on the homepage returns no results even when I type an exact product name. I'm using Safari on macOS Sonoma.",
+      "expected": "The assistant should recognize this as a new bug report, and since description, steps, and environment are all present, call create_bug_report and return a new ticket ID specific to this search bar issue."
+    },
+    {
+      "id": "bug-report-partial",
+      "prompt": "NEW UNRELATED ISSUE: My profile picture won't upload.",
+      "expected": "The assistant should recognize this as a bug report but ask follow-up questions to collect steps to reproduce and environment before filing a ticket, without referencing any previous bug reports."
+    },
+    {
+      "id": "faq-returns",
+      "prompt": "What's your return policy?",
+      "expected": "The assistant should answer using only the FAQ, stating that items can be returned within 30 days of delivery if unused and in original packaging."
+    },
+    {
+      "id": "faq-shipping",
+      "prompt": "How long does delivery take?",
+      "expected": "The assistant should answer using only the FAQ, referencing shipping confirmation email and processing time of 1-2 business days."
+    },
+    {
+      "id": "faq-refund-timing",
+      "prompt": "When will I get my refund?",
+      "expected": "The assistant should answer that refunds are issued after inspection, typically 3-10 business days."
+    },
+    {
+      "id": "redirect-billing-dispute",
+      "prompt": "Can I speak to a human about a billing dispute?",
+      "expected": "The assistant should politely redirect to the human support line at 1-800-555-0199, not attempt to resolve the dispute itself."
+    },
+    {
+      "id": "redirect-out-of-scope",
+      "prompt": "Can you recommend a good gift for my mom's birthday?",
+      "expected": "The assistant should recognize this doesn't fit bug report or FAQ categories and redirect to human support."
+    },
+    {
+      "id": "no-hallucination-check",
+      "prompt": "Do you offer same-day delivery?",
+      "expected": "The assistant should not fabricate an answer; since the FAQ doesn't mention same-day delivery, it should say it doesn't have that information or redirect to human support."
+    }
+  ]
+}

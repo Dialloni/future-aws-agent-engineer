@@ -1,0 +1,152 @@
+[
+  {
+    "hotel_id": "HZ-BCN-01",
+    "name": "Horizon Rambla Suites",
+    "city": "Barcelona",
+    "country": "Spain",
+    "rating": 4.6,
+    "price_per_night_usd": 185,
+    "currency": "EUR",
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "rooftop pool",
+      "airport shuttle"
+    ],
+    "rooms_available": 12
+  },
+  {
+    "hotel_id": "HZ-BCN-02",
+    "name": "Gracia Garden Hotel",
+    "city": "Barcelona",
+    "country": "Spain",
+    "rating": 4.2,
+    "price_per_night_usd": 132,
+    "currency": "EUR",
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "gym"
+    ],
+    "rooms_available": 5
+  },
+  {
+    "hotel_id": "HZ-BCN-03",
+    "name": "Barceloneta Beach Inn",
+    "city": "Barcelona",
+    "country": "Spain",
+    "rating": 3.9,
+    "price_per_night_usd": 98,
+    "currency": "EUR",
+    "amenities": [
+      "wifi",
+      "beach access"
+    ],
+    "rooms_available": 21
+  },
+  {
+    "hotel_id": "HZ-ROM-01",
+    "name": "Horizon Palazzo Roma",
+    "city": "Rome",
+    "country": "Italy",
+    "rating": 4.8,
+    "price_per_night_usd": 240,
+    "currency": "EUR",
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "spa",
+      "concierge"
+    ],
+    "rooms_available": 7
+  },
+  {
+    "hotel_id": "HZ-ROM-02",
+    "name": "Trastevere Courtyard",
+    "city": "Rome",
+    "country": "Italy",
+    "rating": 4.3,
+    "price_per_night_usd": 155,
+    "currency": "EUR",
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "terrace"
+    ],
+    "rooms_available": 14
+  },
+  {
+    "hotel_id": "HZ-ROM-03",
+    "name": "Termini Express Lodge",
+    "city": "Rome",
+    "country": "Italy",
+    "rating": 3.7,
+    "price_per_night_usd": 89,
+    "currency": "EUR",
+    "amenities": [
+      "wifi",
+      "24h reception"
+    ],
+    "rooms_available": 30
+  },
+  {
+    "hotel_id": "HZ-PAR-01",
+    "name": "Horizon Rive Gauche",
+    "city": "Paris",
+    "country": "France",
+    "rating": 4.7,
+    "price_per_night_usd": 268,
+    "currency": "EUR",
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "spa",
+      "bar"
+    ],
+    "rooms_available": 4
+  },
+  {
+    "hotel_id": "HZ-PAR-02",
+    "name": "Montmartre Atelier",
+    "city": "Paris",
+    "country": "France",
+    "rating": 4.1,
+    "price_per_night_usd": 164,
+    "currency": "EUR",
+    "amenities": [
+      "wifi",
+      "breakfast"
+    ],
+    "rooms_available": 18
+  },
+  {
+    "hotel_id": "HZ-LON-01",
+    "name": "Horizon Thames View",
+    "city": "London",
+    "country": "United Kingdom",
+    "rating": 4.5,
+    "price_per_night_usd": 295,
+    "currency": "GBP",
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "gym",
+      "river view"
+    ],
+    "rooms_available": 9
+  },
+  {
+    "hotel_id": "HZ-LON-02",
+    "name": "Camden Loft Hotel",
+    "city": "London",
+    "country": "United Kingdom",
+    "rating": 4.0,
+    "price_per_night_usd": 172,
+    "currency": "GBP",
+    "amenities": [
+      "wifi",
+      "gym"
+    ],
+    "rooms_available": 16
+  }
+]

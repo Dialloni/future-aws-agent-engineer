@@ -1,0 +1,30 @@
+[
+  {
+    "name": "get_booking",
+    "description": "Look up a single Horizon Travel booking by its reference code. Use this whenever a traveller asks about a specific booking, reservation, or confirmation number such as 'BK-1001'.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "booking_reference": {
+          "type": "string",
+          "description": "Booking reference code, e.g. 'BK-1001'"
+        }
+      },
+      "required": ["booking_reference"]
+    }
+  },
+  {
+    "name": "list_bookings_by_email",
+    "description": "List every Horizon Travel booking belonging to one customer email address. Use this when a traveller asks what trips or bookings they have, or asks about another customer's booking history by email.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "customer_email": {
+          "type": "string",
+          "description": "Customer email address, e.g. 'alice@example.com'"
+        }
+      },
+      "required": ["customer_email"]
+    }
+  }
+]
